@@ -1,0 +1,74 @@
+.topnav {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 1ch;
+}
+li {
+  width: 100px;
+  height: 50px;
+  border: 1px;
+  background: rgb(198, 207, 69);
+  color: rgb(44, 26, 4);
+  text-align: left;
+  border-radius: 20;
+  gap: 5ch;
+  margin: 5px;
+}
+main {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(148, 97, 35);
+  background-color: rgb(247, 255, 138);
+}
+
+.testimonial {
+  background-color: burlywood;
+  border-color: black;
+  border-width: 2px;
+  border-style: double;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p.brand {
+  color: rgb(148, 97, 35);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: right;
+}
+a {
+  color: azure;
+  background-color: rgb(148, 97, 35);
+  padding: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3ch;
+}
+p {
+  display: flex;
+  background-color: azure;
+}
+footer {
+  display: flex;
+  background-color: rgb(175, 242, 245);
+  justify-content: center;
+  font-size: larger;
+  color: blue;
+  justify-self: center;
+  flex-direction: column;
+}
+body {
+  background-color: rgb(220, 238, 245);
+}
